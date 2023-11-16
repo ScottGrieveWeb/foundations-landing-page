@@ -1,3 +1,31 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.header#nav-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 80px;
+}
+
+ul {
+    list-style: none;
+}
+
+.header#nav-items {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right: 150px;
+}
+
+#links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
